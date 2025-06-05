@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YancoDEV | Brochure</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #0f2027;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      flex: 1 1 300px;
+      max-width: 400px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card h3 {
+      color: #203a43;
+      margin-bottom: 1rem;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #203a43;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YancoDEV</h1>
+    <p>Soluciones digitales para atención y soporte moderno</p>
+  </header>
+
+  <section class="section">
+    <h2 class="section-title">¿Quiénes somos?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Páginas Web Estáticas</h3>
+        <p>Diseñamos sitios web ligeros, rápidos y eficientes, ideales para presentar información fija como catálogos, perfiles empresariales o portafolios. Perfectas para negocios que necesitan presencia en internet sin funcionalidades dinámicas.</p>
+      </div>
+      <div class="card">
+        <h3>Aplicaciones Web con Backend</h3>
+        <p>Desarrollamos plataformas interactivas con funcionalidades avanzadas y administración de datos. Estas aplicaciones permiten iniciar sesión, manejar bases de datos, realizar transacciones y automatizar procesos.</p>
+      </div>
+      <div class="card">
+        <h3>Dashboards y Análisis de Datos</h3>
+        <p>Construimos paneles visuales que muestran indicadores clave en tiempo real. A través de gráficas y reportes interactivos, ayudamos a tomar decisiones con base en datos precisos y organizados.</p>
+      </div>
+      <div class="card">
+        <h3>Chatbots WhatsApp y Telegram</h3>
+        <p>Automatizamos la atención al cliente con bots inteligentes que agendan citas, responden preguntas frecuentes, reconocen notas de voz y utilizan inteligencia artificial para brindar respuestas rápidas y personalizadas.</p>
+      </div>
+      <div class="card">
+        <h3>Asesoría y Consultoría</h3>
+        <p>Analizamos procesos y te guiamos en la transformación digital de tu negocio. Te ayudamos a mejorar tu operatividad, escalar servicios y automatizar tareas que aumenten tu productividad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">¿Por qué elegirnos?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Equipo Multidisciplinario</h3>
+        <p>Contamos con desarrolladores, diseñadores y estrategas listos para llevar tu negocio al siguiente nivel.</p>
+      </div>
+      <div class="card">
+        <h3>Enfoque en el Cliente</h3>
+        <p>Escuchamos, analizamos y proponemos soluciones que realmente agregan valor a tu operación.</p>
+      </div>
+      <div class="card">
+        <h3>Innovación Constante</h3>
+        <p>Usamos tecnologías modernas para garantizar velocidad, seguridad y escalabilidad en cada proyecto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">¿Qué dicen nuestros clientes?</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Andrea G., Administradora de Propiedad Horizontal</h3>
+        <p>Gracias a YancoDEV logramos automatizar las reservas de zonas comunes con un chatbot de WhatsApp. Ahora todo es más fácil para los residentes y para nosotros.</p>
+      </div>
+      <div class="card">
+        <h3>Carlos M., Emprendedor</h3>
+        <p>El equipo entendió mi idea desde el principio y me entregaron una aplicación web con dashboard que uso todos los días. 100% recomendados.</p>
+      </div>
+      <div class="card">
+        <h3>Luisa P., Consultora Ambiental</h3>
+        <p>Me ayudaron a centralizar los datos del monitoreo de campo en una sola plataforma, ahora todo el equipo puede consultar y analizar la información en tiempo real.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YancoDEV. Todos los derechos reservados. | contacto@yancodev.com</p>
+  </footer>
+</body>
+</html>
